@@ -51,7 +51,7 @@ If you try new hardware configurations or new firmware versions, please contact 
 
 Daikin original API use REST.
 
-You can use GET http request to retrive informations and POST http request to apply new settings.
+You can use GET http request to retrive informations and POST http request to apply new settings. Note that they should be posted in the query string of the URL, and not in the post body.
 
 Uri                | GET | POST | desc
 -------------------|-----|------|-----
